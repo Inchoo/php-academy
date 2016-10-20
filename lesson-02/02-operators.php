@@ -21,16 +21,20 @@ $s = $s . ' u Osijeku';
 
 var_dump($s);
 
-$a1 = [1, 'two', false];
-
-$a2 = [
-    'key_1' => 1,
-    'key_2' => 'two',
-    'key_3' => [
-
-    ]
+$a = [
+    1, 
+    2,
+    'one' => 'a1',
+    'two' => 'a2'
 ];
 
-var_dump($a1 + $a2);
-//array_merge($a1, $a2);
-//array_replace($a1, $a2);
+$b = [
+    2, 
+    3,
+    'two' => 'b2',
+    'three' => 'b3'
+];
+
+var_dump($a + $b);
+//array_merge($a, $b);
+//array_replace($a, $b);
