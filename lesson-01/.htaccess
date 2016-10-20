@@ -1,0 +1,7 @@
+# Apache directives for this folder
+
+# Prevent directory listing:
+# Options -Indexes
+
+# Define default directory file (will be executed when directory is accessed)
+# DirectoryIndex index.php page-1.html
