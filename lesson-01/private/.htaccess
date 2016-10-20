@@ -1,0 +1,4 @@
+# Apache directives for this folder
+
+Order deny,allow
+Deny from all
