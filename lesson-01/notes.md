@@ -3,18 +3,18 @@
 Linux is preferred environment!
 Apache, MySql, PHP
 
-XAMPP or Wamp
-https://www.apachefriends.org/index.html
-http://www.wampserver.com/en/
+XAMPP or Wamp  
+https://www.apachefriends.org/index.html  
+http://www.wampserver.com/en/  
 
 Wamp is preferred, avoid wizards :)
 
-Netbeans PHP or PhpStorm
-https://netbeans.org/downloads/ (php column)
-https://www.jetbrains.com/phpstorm/download/
+Netbeans PHP or PhpStorm  
+https://netbeans.org/downloads/ (php column)  
+https://www.jetbrains.com/phpstorm/download/  
 
-Git (for Windows)
-https://git-scm.com/downloads
+Git (for Windows)  
+https://git-scm.com/downloads 
 
 # Git 
 
@@ -37,12 +37,14 @@ git config user.email pero@gmail.com
 
 * commit and push to Github (copy proper link from Github)
 ```
+git add .
 git commit -m "first commit"
 git remote add origin https://github.com/myusername/myrepo.git
 git push -u origin master
 ```
 
 3. From home:
+
 * set user and email globally on your PC
 ```
 git config --global user.name "Pero Peric"

@@ -1,11 +1,15 @@
 <?php
 
 /**
- * include, require, require_once
+ * include, 
+ * include_once,
+ * require, 
+ * require_once
  */
 
 include '06-include/include-me-1.php';
 
+//require_once 'functions.php';
 //require_once 'functions.php';
 
 /**
