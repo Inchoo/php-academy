@@ -15,14 +15,15 @@ session, login
   http://php.net/manual/en/function.session-save-path.php
 
 example app
-* forma za prijavu na php akademiju
+* forma za prijavu na php akademiju, srediti formu
 * naslovnica, forma, success page
 * prijave se pisu u fajl
-* blokiranje nove prijave na razini sessiona ("Vec ste se prijavili!")
 
 zadaca
-* bootstrap na formu
+* zavrsiti formu i pisanje podataka u fajl
+* "Uploadaj primjer svog koda" - upload fajla na server ($_FILES superglobal)
+* ukrasiti page/formu css-om (opcionalno); bootstrap:
   http://getbootstrap.com/
-* admin vidi sve prijave uz autentikaciju
+* admin vidi sve prijave uz autentikaciju (opcionalno)
 
 
