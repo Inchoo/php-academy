@@ -1,10 +1,10 @@
 
 forms and validation
-* html5 frontend validation - types, required, pattern, ..
+* html5 frontend validation - types, required, pattern, ..  
   https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/Data_form_validation
   http://www.w3schools.com/html/html_form_attributes.asp
 
-* backend filters
+* backend filters  
   http://php.net/manual/en/filter.examples.validation.php
   http://www.w3schools.com/php/php_filter.asp
 
