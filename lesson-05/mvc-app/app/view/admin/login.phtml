@@ -1,0 +1,25 @@
+<div class="page-header">
+    <h1>Admin login</h1>
+</div>
+
+<?php if(isset($message)): ?>
+    <div class="alert alert-danger">
+        <?php echo $message; ?>
+    </div>
+<?php endif; ?>
+
+<form method="post" action="<?php echo App::config('url') ?>admin/submit" class="form">
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" class="form-control">
+    </div>
+
+    <div class="form-group">
+        <label for="password">Lozinka</label>
+        <input type="password" name="password" id="password" class="form-control">
+    </div>
+
+    <div class="form-group">
+        <input type="submit" class="btn btn-primary" value="Prijava">
+    </div>
+</form>

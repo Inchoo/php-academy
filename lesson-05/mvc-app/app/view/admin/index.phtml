@@ -1,0 +1,22 @@
+<div class="page-header">
+    <h1>Prijave</h1>
+</div>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Ime i prezime</th>
+            <th>Fakultet</th>
+            <th>O meni</th>
+        </tr>
+    </thead>
+    <tbody>
+        <?php foreach($prijave as $prijava): ?>
+            <tr>
+                <th><?php echo $prijava[0] ?></th>
+                <th><?php echo $prijava[1] ?></th>
+                <th><?php echo $prijava[2] ?></th>
+            </tr>
+        <?php endforeach; ?>
+    </tbody>
+</table>
