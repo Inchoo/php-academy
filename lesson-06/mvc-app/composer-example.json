@@ -1,0 +1,20 @@
+{
+    "require": {
+        "php": ">=5.6.4",
+        "monolog/monolog": "*"
+    },
+    "config": {
+        "use-include-path": true
+    },
+    "autoload": {
+        "classmap": [
+            "app/model/",
+            "app/controller/"
+        ]
+    },
+    "include-path": [
+        "app/model/",
+        "app/controller/"
+    ]
+}
+
