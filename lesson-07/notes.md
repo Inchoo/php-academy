@@ -1,6 +1,6 @@
 ## Browser debugging
 
-https://developers.google.com/web/tools/chrome-devtools/
+https://developers.google.com/web/tools/chrome-devtools/  
 https://developer.mozilla.org/en-US/docs/Tools
 
 ## PHP debugging
